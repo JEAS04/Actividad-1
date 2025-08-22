@@ -19,7 +19,7 @@ from pydantic import BaseModel
    -- email: str
 
 -- Los datos se validan y convierten automáticamente
-usuario = Usuario(id='123', nombre='Juan', email='juan@ejemplo.com')
+ -- usuario = Usuario(id='123', nombre='Juan', email='juan@ejemplo.com')
 
  -- print(usuario)
 
