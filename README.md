@@ -13,18 +13,18 @@ Basta con crear una clase que herede de BaseModel y definir los atributos con ti
 
 from pydantic import BaseModel
 
-class Usuario(BaseModel):
-    id: int
-    nombre: str
-    email: str
+-- class Usuario(BaseModel):
+    -- id: int
+    -- nombre: str
+   -- email: str
 
-# Los datos se validan y convierten automáticamente
+-- Los datos se validan y convierten automáticamente
 usuario = Usuario(id='123', nombre='Juan', email='juan@ejemplo.com')
 
-print(usuario)
+ -- print(usuario)
 
 ## Salida
-Usuario(id=123, nombre='Juan', email='juan@ejemplo.com')
+ -- Usuario(id=123, nombre='Juan', email='juan@ejemplo.com')
 
 Pydantic convierte el id de string a entero automáticamente, y verifica que nombre y email sean cadenas válidas.
 
